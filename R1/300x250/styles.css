@@ -69,6 +69,13 @@ html, body {
   transform: translateY(1px);
 }
 
+.logo{
+    position: absolute;
+    left: 203px;
+    top: 208.5px;
+    width: 95px;
+}
+
 #default_exit{
   top:0px;
   left:0px;

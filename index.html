@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        html, body{
+            margin: 0px;
+            padding: 0px;
+            background-color: #e8e9e9;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header{
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2{
+            font-size: 3rem;
+        }
+        .wrap{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .column{
+            background-color: #ff622f;
+            width: 300px;
+            text-align: center;
+            color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            height: 250px;
+        
+        }
+        .column .tab{
+            background-color: #ef501c;
+            font-size: 20px;
+            padding: 12px 10px;
+            margin-bottom: 20px;
+        }
+        .column a{
+            background-color: #fff;
+            display: inline-block;
+            color: #000;
+            text-decoration: none;
+            padding: 7px 20px;
+            border-radius: 5px;
+        }
+        .column.two{
+            background-color: #52c5eb;
+        }
+        .column.two .tab{
+            background-color: #3db7df;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://1000logos.net/wp-content/uploads/2020/03/Columbia-logo.png" width="300px" alt="">
+        <h2>Columbia Hero Digital banners</h2>
+    </div>
+    <div class="wrap">
+        <div class="column">
+            <div class="tab">Route 1</div>
+            <a href="./R1/300x250/index.html">300x250</a>
+        </div>
+        <div class="column two">
+            <div class="tab">Route 1</div>
+            <a href="./R2/300x250/index.html">300x250</a>
+        </div>
+    </div>
+</body>
+</html>
